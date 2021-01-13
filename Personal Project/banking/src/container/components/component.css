@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #3c1874;
+  align-items: center;
+  height: 2vh;
+  color: white;
+  padding: 40px;
+}
+.title {
+  display: flex;
+  justify-self: start;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 100px;
+}
+
+.img {
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button-title {
+  margin-left: 100px;
+}
+/* Header Components */
+
+.transaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #8a2be2;
+}
+
+.transaction-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+.transaction-balance {
+  display: flex;
+  color: white;
+  font-size: 25px;
+}
+.transaction-lastTransaction {
+  color: red;
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 5px 25px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border: 0.5 solid#e5e5e5;
+}
+/* Transaction Components */
+
+.acc {
+  background-color: #8a2be2;
+  padding: 10px;
+  width: 8vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 0.5 solid #8a2be2;
+  margin-right: 10px;
+}
+.acc-title {
+  color: lightgrey;
+  font-size: 12px;
+}
+.acc-balance {
+  color: white;
+  margin-top: -5px;
+  font-weight: 350;
+  font-size: 20px;
+}
+.acc-desc {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}

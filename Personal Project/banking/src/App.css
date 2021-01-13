@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.loading {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  color:black;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -120px;
+
+}
+
+.loading-title{
+  font-size: 100px;
+  font-style: normal;
+  margin-bottom: -20px;
+}
+
+.loading-p{
+  font-size: 20px;
+  color: grey;
+}
+
+/* loading end */
